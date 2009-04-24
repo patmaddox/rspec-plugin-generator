@@ -24,28 +24,11 @@ Example:
         vendor/plugins/browser_filters/spec/browser_filters_spec.rb
         vendor/plugins/browser_filters/tasks/browser_filters_tasks.rake
         
-    ./script/generate rspec_plugin BrowserFilters --with-database
-
-    This will create:
-        vendor/plugins/browser_filters/README
-        vendor/plugins/browser_filters/init.rb
-        vendor/plugins/browser_filters/install.rb
-        vendor/plugins/browser_filters/lib/browser_filters.rb
-        vendor/plugins/browser_filters/spec/browser_filters_spec.rb
-        vendor/plugins/browser_filters/tasks/browser_filters_tasks.rake
-        vendor/plugins/browser_filters/db
+    --with-database will add:
         vendor/plugins/browser_filters/db/database.yml
         vendor/plugins/browser_filters/db/schema.rb
 
-    ./script/generate rspec_plugin BrowserFilters --with-generator
-
-    This will create:
-        vendor/plugins/browser_filters/README
-        vendor/plugins/browser_filters/init.rb
-        vendor/plugins/browser_filters/install.rb
-        vendor/plugins/browser_filters/lib/browser_filters.rb
-        vendor/plugins/browser_filters/spec/browser_filters_spec.rb
-        vendor/plugins/browser_filters/tasks/browser_filters_tasks.rake
+    --with-generator will add:
         vendor/plugins/browser_filters/generators/browser_filters/browser_filters_generator.rb
         vendor/plugins/browser_filters/generators/browser_filters/USAGE
         vendor/plugins/browser_filters/generators/browser_filters/templates/
