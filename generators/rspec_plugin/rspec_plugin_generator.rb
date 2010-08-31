@@ -16,7 +16,7 @@ class RspecPluginGenerator < Rails::Generator::NamedBase
       m.directory "#{plugin_path}/tasks"
       m.directory "#{plugin_path}/spec"
       
-      m.template "plugin:README.rdoc",  "#{plugin_path}/README.rdoc"
+      m.template "plugin:README",  "#{plugin_path}/README.rdoc"
       m.template "plugin:init.rb",      "#{plugin_path}/init.rb"
       m.template "plugin:install.rb",   "#{plugin_path}/install.rb"
       m.template "plugin:uninstall.rb", "#{plugin_path}/uninstall.rb"
